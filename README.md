@@ -26,6 +26,6 @@
 - [ ] `Flexbox` or `Grid` are used to achieve layouts, not floats, tables or Javascript
 - [ ] `DOM` size has been reduced as much as possible
 - [ ] No nested selectors are used
-- [ ] <b>Animation</b> is achieved using CSS instead of Javascript where possible
+- [ ] <b>Animation</b> is achieved using CSS not Javascript where possible
 - [ ] Expensive properties are avoided if possible: <i>border-radius</i>, <i>box-shadow</i>, <i>:nth-child</i>, <i>filter</i>, <i>position: fixed</i>, <i>transform</i>, <i>opacity</i>)
-- [ ] <b>Unused</b> css has been removed
+- [ ] <b>Unused</b> CSS has been removed
