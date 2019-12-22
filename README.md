@@ -9,6 +9,7 @@
 - [ ] The developer understands our `ITCSS` architecture and has extended the system in the correct places
 - [ ] All CSS code is written using a <b>preprocessor</b> like <i>SCSS</i> or <i>LESS</i>
 - [ ] All CSS is run through a <b>postprocessor</b> like <i>Webpack</i> for concatenation, minification, vendor prefixing, etc
+- [ ] Developer has appropriately leveraged preprocessor functionality like <b>variables</b>, <b>functions</b> and <b>mixins</b>
 - [ ] Only `rem` units are used, not `px` or `em`s
 - [ ] Developer has confirmed with UX the need for any <b>responsive styling</b>
 - [ ] `media queries` are defined inside the associated BEM class definitions
