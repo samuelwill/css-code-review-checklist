@@ -1,9 +1,9 @@
 # css-code-review-checklist
 
-## General
+### General
 
 - [ ] Do stuff
 
-## Performance
+### Performance
 
 - [ ] Make it fast
