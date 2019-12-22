@@ -1,4 +1,4 @@
-## css-code-review-checklist
+## CSS Code Review Checklist
 
 ### Principles
 1. Specificity should always be as low as possible
