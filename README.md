@@ -10,7 +10,7 @@
 - [ ] All CSS code is written using a <b>preprocessor</b> like <i>SCSS</i> or <i>LESS</i>
 - [ ] All CSS is run through a <b>postprocessor</b> like <i>Webpack</i> for concatenation, minification, vendor prefixing, etc
 - [ ] All styles are applied using <b>classes</b> that follow the <b>BEM</b> naming convention
-- [ ] `#ids` and elements (like `p` or `div`) are not used to apply styling
+- [ ] `#id`s and elements (like `p` or `div`) are not used to apply styling
 - [ ] No `!important`s are used outside of override classes
 - [ ] Developer has confirmed with UX the need for any <b>responsive styling</b>
 - [ ] Only `rem` units are used, not `px` or `em`s
