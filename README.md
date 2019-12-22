@@ -29,3 +29,4 @@
 - [ ] <b>Animation</b> is achieved using CSS not Javascript where possible
 - [ ] Expensive properties are avoided if possible: <i>border-radius</i>, <i>box-shadow</i>, <i>:nth-child</i>, <i>filter</i>, <i>position: fixed</i>, <i>transform</i>, <i>opacity</i>)
 - [ ] <b>Unused</b> CSS has been removed
+- [ ] Modified UI has been profiled with <i>Chrome Performance Monitor</i> to identify any <b>render</b> or <b>paint</b> issues
