@@ -5,18 +5,23 @@
 2. Styling code should be <b>generic</b> and reusable across components and projects
 3. Separate <b>structure</b> from <b>skin</b>. Classes should manage the layout or look of an element, not both
 
-### Checklist
+### General
 - [ ] The developer understands our `ITCSS` architecture and has extended the system in the correct places
 - [ ] All CSS code is written using a <b>preprocessor</b> like <i>SCSS</i> or <i>LESS</i>
 - [ ] All CSS is run through a <b>postprocessor</b> like <i>Webpack</i> for concatenation, minification, vendor prefixing, etc
+- [ ] Only `rem` units are used, not `px` or `em`s
+- [ ] Developer has confirmed with UX the need for any <b>responsive styling</b>
+- [ ] `media queries` are defined inside the associated BEM class definitions
+- [ ] All styles are defined <b>mobile-first</b> (media queries only apply to progressively larger viewports)
+
+### Maintenance
 - [ ] All styles are applied using <b>classes</b> that follow the <b>BEM</b> naming convention
 - [ ] `#id`s and elements (like `p` or `div`) are not used to apply styling
-- [ ] No `!important`s are used outside of override classes
-- [ ] Developer has confirmed with UX the need for any <b>responsive styling</b>
-- [ ] Only `rem` units are used, not `px` or `em`s
 - [ ] No inline styles are used
-- [ ] `Flexbox` or `Grid` are used to achieve layouts, not floats, tables or Javascript
 - [ ] Colors are defined using <b>variables</b> and given a clear name
-- [ ] `media queries` are defined inside the associated BEM class definitions
-- [ ] All styles are defined <b>mobile-first</b> (media queries apply to progressively larger viewports)
+- [ ] No `!important`s are used outside of override classes
+
+### Performance
+- [ ] `Flexbox` or `Grid` are used to achieve layouts, not floats, tables or Javascript
+- [ ] `DOM` size has been reduced as much as possible
 - [ ] No nested selectors are used
