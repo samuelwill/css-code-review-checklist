@@ -3,7 +3,7 @@
 ### Principles
 1. <b>Specificity</b> should be kept as <b>low</b> as possible
 2. Styling code should be <b>generic</b> and reusable across components and projects
-3. Separate <b>structure</b> from <b>skin</b>. Classes should manage the layout or look of an element, not both
+3. Separate <b>structure</b> from <b>skin</b>. Rules should manage the layout or look of an element, not both
 
 ### General
 - [ ] The developer understands our `ITCSS` architecture and has extended the system in the correct places
@@ -16,8 +16,8 @@
 - [ ] All styles are defined <b>mobile-first</b> (media queries only apply to progressively larger viewports)
 
 ### Maintenance
-- [ ] All styles are applied using <b>classes</b> that follow the <b>BEM</b> naming convention
-- [ ] `#id`s and elements (like `p` or `div`) are not used to apply styling
+- [ ] All rules are applied using <b>classes</b> that follow the <b>BEM</b> naming convention
+- [ ] `#id`s and elements (like `p` or `div`) are not used as selectors
 - [ ] No inline styles are used
 - [ ] Colors are defined using <b>variables</b> and given a clear name
 - [ ] No `!important`s are used outside of override classes
@@ -26,3 +26,6 @@
 - [ ] `Flexbox` or `Grid` are used to achieve layouts, not floats, tables or Javascript
 - [ ] `DOM` size has been reduced as much as possible
 - [ ] No nested selectors are used
+- [ ] <b>Animation</b> is achieved using CSS instead of Javascript where possible
+- [ ] Expensive properties are avoided if possible: <i>border-radius</i>, <i>box-shadow</i>, <i>:nth-child</i>, <i>filter</i>, <i>position: fixed</i>, <i>transform</i>, <i>opacity</i>)
+- [ ] <b>Unused</b> css has been removed
